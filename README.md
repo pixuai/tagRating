@@ -1,9 +1,15 @@
 # tagRating
 Llama-3.2-11B-Vision-Instruct-TagRater The Llama-3.2-11B-Vision-Instruct-TagRater is a merged multi-modal model designed to rate images based on a provided tagword. By combining visual and language understanding, this model evaluates an image against a rating prompt and produces a concise explanation along with a relevance rating from 0 to 5.
 
+# Model Credit
+
+This model is created by [pixu.ai](https://pixu.ai).
+
+
 # Pixu.ai Vision-Instruct TagRater
 
 An advanced image relevance evaluator that determines how well an image matches a given search term. Built upon state-of-the-art vision and language models, this project leverages efficient fine-tuning and quantization techniques to deliver both performance and precision.
+
 
 ---
 
@@ -14,8 +20,6 @@ An advanced image relevance evaluator that determines how well an image matches 
 - [Rating Guidelines](#rating-guidelines)
 - [Performance Metrics](#performance-metrics)
 - [Usage Example](#usage-example)
-- [Installation](#installation)
-- [Credits](#credits)
 
 ---
 
@@ -163,3 +167,4 @@ if json_match:
     print("JSON Output:", json_obj)
 else:
     print("No JSON object found in the output.")
+```
